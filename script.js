@@ -30,14 +30,34 @@
 //     console.log("Meh")
 // }
 
-const password = prompt("Please enter your password: ")
+// const password = prompt("Please enter your password: ")
 
-if (password.length >= 6) {
-        if (password.indexOf(" ") === -1) {
-        console.log("Valid password.")
-    } else {
-        console.log("Password cannot contain spaces!")
-    }
+// if (password.length >= 6) {
+//         if (password.indexOf(" ") === -1) {
+//         console.log("Valid password.")
+//     } else {
+//         console.log("Password cannot contain spaces!")
+//     }
+// } else {
+//     console.log("Your password is too short.")
+// }
+
+// const password = prompt("Please enter your password: ")
+
+// if (password.length >= 6 && password.indexOf(" ") === -1) {
+//     console.log("Your password is valid")
+// } else {
+//     console.log("Your password is not valid")
+// }
+
+const age = prompt("Enter your age: ")
+
+if ((age >= 0 && age < 5) || age >= 65) {
+    console.log("Free")
+} else if (age >= 5 && age < 10) {
+    console.log("£10")
+} else if (age >= 10 && age < 65) {
+    console.log("£20")
 } else {
-    console.log("Your password is too short.")
+    console.log("Invalid age")
 }

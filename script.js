@@ -50,14 +50,23 @@
 //     console.log("Your password is not valid")
 // }
 
-const age = prompt("Enter your age: ")
+// const age = prompt("Enter your age: ")
 
-if ((age >= 0 && age < 5) || age >= 65) {
-    console.log("Free")
-} else if (age >= 5 && age < 10) {
-    console.log("£10")
-} else if (age >= 10 && age < 65) {
-    console.log("£20")
-} else {
-    console.log("Invalid age")
-}
+// if ((age >= 0 && age < 5) || age >= 65) {
+//     console.log("Free")
+// } else if (age >= 5 && age < 10) {
+//     console.log("£10")
+// } else if (age >= 10 && age < 65) {
+//     console.log("£20")
+// } else {
+//     console.log("Invalid age")
+// }
+
+// const myArray = ['Aaron', 'Lewis', 'Thomas', 'Lauren']
+// console.log(myArray[0])
+// myArray.splice(4,0,'Oliver')
+// console.log(myArray)
+// const newArray = myArray.slice(2)
+// console.log(newArray)
+
+ ;
